@@ -1,0 +1,135 @@
+.container {
+	width: 1200px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0 -15px;
+}
+.col-lg-1 {
+	width: 8.33%;
+	padding: 0 15px;
+}
+.col-lg-2 {
+	width: 16.66%;
+	padding: 0 15px;
+}
+.col-lg-3 {
+	width: 25%;
+	padding: 0 15px;
+}
+.col-lg-4 {
+	width: 33.33%;
+	padding: 0 15px;
+}
+.col-lg-5 {
+	width: 41.66%;
+	padding: 0 15px;
+}
+.col-lg-6 {
+	width: 50%;
+	padding: 0 15px;
+}
+.col-lg-7 {
+	width: 58.33%;
+	padding: 0 15px;
+}
+.col-lg-8 {
+	width: 66.66%;
+	padding: 0 15px;
+}
+.col-lg-9 {
+	width: 75%;
+	padding: 0 15px;
+}
+.col-lg-10 {
+	width: 83.33%;
+	padding: 0 15px;
+}
+.col-lg-11 {
+	width: 91.66%;
+	padding: 0 15px;
+}
+.col-lg-12 {
+	width: 100%;
+	padding: 0 15px;
+}
+.align-items {
+	align-items: center !important;
+}
+/*--------- header-start ---------*/
+.header-menu {
+	background: #dbdef5;
+	padding: 20px 0;
+}
+.header-logo {
+	font-family: 'opns sans',sans-serif;
+	font-size: 20px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+.logo-first {
+	position: relative;
+}
+.logo-list ul li {
+	list-style: none;
+	display: inline;
+}
+.logo-list a {
+	margin: 0 20px;
+	text-decoration: none;
+	font-family: 'opens sans,sans-serif';
+	font-size: 18px;
+	display: inline-block;
+	color: #999;
+	text-transform: capitalize;
+}
+.logo-first {
+	color: black !important;
+}
+.logo-first:before {
+	content:"";
+	border: 1px solid #34b7a7;
+	padding: 0 12px;
+	position: absolute;
+	top: 26px;
+	left: 0;
+}
+.logo {
+	position: relative;
+}
+.logo:before {
+	content:"";
+	border: 1px solid #34b7a7;
+	position: absolute;
+	top: 26px;
+	left: 0;
+	opacity: 0;
+	transition: all 0.5s ease-in;
+}
+.logo:hover.logo:before {
+	opacity: 1;
+	transition: all 0.5s ease-in;
+	padding: 0 12px;
+}
+.logo:hover {
+	color: black;
+}
+.media-logo {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+.media-logo a{
+	margin-left: 15px;
+	text-decoration: none;
+}
+.media-logo a > i {
+	color: #6f6b6b;
+	font-size: 18px;
+}
+.media-logo a > i:hover {
+	color: skyblue;
+}
